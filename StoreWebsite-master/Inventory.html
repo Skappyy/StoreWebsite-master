@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RTGS - Ready to Go Systems</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<header>
+    <form>
+        <input type="text" name="search" placeholder="What are you looking for today?">
+    </form>
+</header>
+<div id="toggleMenu" onclick="toggleMenu()"></div>
+<nav id="menu">
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Inventory.html">Stock</a></li>
+        <li><a href="CustomerFeedBack.html">FeedBack</a></li>
+    </ul>
+</nav>
+<script>
+    var toggleStatus = 1;
+    function toggleMenu() {
+        if (toggleStatus === 1){
+            toggleStatus = 0;
+            document.getElementById("menu").style.left = "-240px";
+        }
+        else if (toggleStatus === 0){
+            toggleStatus = 1;
+            document.getElementById("menu").style.left = "0px";
+        }
+    }
+</script>
+<section class="container">
+    <div><p>dabgsjfk</p></div>
+    <div><p>fdsgjfgb;sdbg</p></div>
+    <div><p>sjfgbsgg</p></div>
+    <div><p>fiudagvbfnjkv</p></div>
+    <div><p>sdjvbdfjbkdvbj</p></div>
+</section>
+</body>
+</html>

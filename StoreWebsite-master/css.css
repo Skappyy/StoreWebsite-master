@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-color: white;
+}
+nav {
+    width: 240px;
+    background-color: white;
+    background-size: 240px 1000px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+}
+nav img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+nav ul {
+    padding-left: 30px;
+    padding-top: 60px;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+nav ul li a{
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color: #272727;
+    text-transform: uppercase;
+}
+#toggleMenu {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background: white no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    cursor: pointer;
+    border: 10px solid #fff;
+    border-radius: 2px;
+    transition: all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+}
+#toggleMenu:hover {
+    opacity: 0.7;
+}
+form {
+    display: inline-block;
+    text-align: center;
+    float: inside;
+}
+header {
+    float: left;
+}
+.main-banner {
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.main-banner .imgban {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+.main-banner #imgban3 {
+    background-image: url("Images/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-banner #imgban2 {
+    background-image: url("Images/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-banner #imgban1 {
+    background-image: url("Images/");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
